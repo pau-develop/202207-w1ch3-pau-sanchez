@@ -8,8 +8,14 @@ body {
 .top {
   width: 100%;
   height: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.top h5 {
+  color: orange;
 }
 
 .bot {
   width: 100%;
+  display: flex;
 }
