@@ -79,15 +79,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-@media (min-width: 1000px) {
-  .bot {
-    height: 75vh;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 .bot img {
   margin: 0;
   padding: 0;
@@ -96,6 +87,11 @@ body {
   border-radius: 50px;
 }
 @media (min-width: 1000px) {
+  .bot {
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+  }
   .bot img {
     margin: 0;
     padding: 0;
@@ -104,6 +100,9 @@ body {
     border-radius: 50px;
     object-fit: cover;
   }
+}
+
+@media (min-width: 1000px) {
 }
 .bot div {
   margin: 0;
