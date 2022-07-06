@@ -71,6 +71,10 @@ body {
     border: 2px solid var(--orange);
     border-radius: 0 50px 50px 50px;
   }
+  .top button:hover {
+    background-color: white;
+    color: var(--orange);
+  }
 }
 
 .bot {
