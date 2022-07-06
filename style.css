@@ -1,3 +1,7 @@
+:root {
+  --orange: rgb(227, 75, 10);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +15,10 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.top h1 {
+  font-size: 4rem;
+  margin: 2% 0 2% 0;
+}
 
 @media (min-width: 1000px) {
   .top {
@@ -21,12 +29,14 @@ body {
   }
 }
 .top h5 {
-  color: orange;
+  color: var(--orange);
+  font-size: 1.5rem;
+  margin: 6% 0 2% 0;
 }
 
 .top button {
   padding: 2%;
-  background-color: orange;
+  background-color: var(--orange);
   color: white;
   align-self: center;
   border: none;
@@ -74,6 +84,7 @@ body {
   .bot div {
     margin: 0;
     width: 25%;
+    height: 90%;
     padding: 0;
     display: flex;
     justify-content: center;
