@@ -39,6 +39,7 @@ body {
 
 .top button {
   padding: 2%;
+  width: 15%;
   background-color: var(--orange);
   color: white;
   align-self: center;
