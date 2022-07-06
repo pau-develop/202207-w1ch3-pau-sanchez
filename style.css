@@ -15,6 +15,15 @@ body {
   color: orange;
 }
 
+.top button {
+  padding: 2%;
+  background-color: orange;
+  color: white;
+  align-self: center;
+  border: none;
+  border-radius: 0 50px 50px 50px;
+}
+
 .bot {
   width: 100%;
   display: flex;
