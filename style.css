@@ -57,6 +57,7 @@ body {
     color: var(--orange);
     font-size: 1.5rem;
     margin: 6% 0 2% 0;
+    text-align: left;
   }
   .top button {
     font-size: 1.2rem;
