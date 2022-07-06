@@ -1,3 +1,7 @@
+:root {
+  --orange: rgb(227, 75, 10);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,12 +25,12 @@ body {
   }
 }
 .top h5 {
-  color: orange;
+  color: var(--orange);
 }
 
 .top button {
   padding: 2%;
-  background-color: orange;
+  background-color: var(--orange);
   color: white;
   align-self: center;
   border: none;
