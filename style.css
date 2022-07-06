@@ -17,6 +17,7 @@ body {
 }
 .top h1 {
   font-size: 4rem;
+  margin: 2% 0 2% 0;
 }
 
 @media (min-width: 1000px) {
@@ -30,6 +31,7 @@ body {
 .top h5 {
   color: var(--orange);
   font-size: 1.5rem;
+  margin: 6% 0 2% 0;
 }
 
 .top button {
