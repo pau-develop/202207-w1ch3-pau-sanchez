@@ -17,6 +17,7 @@ body {
   height: 25%;
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
 }
 .top h1 {
   font-size: 4rem;
@@ -39,10 +40,11 @@ body {
 
 .top button {
   padding: 2%;
+  margin-bottom: 2%;
   width: 15%;
   background-color: var(--orange);
   color: white;
-  align-self: center;
+  align-self: flex-end;
   border: none;
   border-radius: 0 50px 50px 50px;
 }
